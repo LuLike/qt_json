@@ -1,0 +1,254 @@
+﻿{
+    "pluginName": "bmPluginCalib",
+    "pluginVersion": "bmCalib1.1.1.1",
+    "category": [
+        {
+            "sequenceNumber": 1,
+            "showText": "标定",
+            "division": [
+				{
+                  "sequenceNumber": 1,
+                  "showText": "运动控制",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "运动控制",
+                            "algorithmName": "{05B3B5F9-9069-4682-88A4-B95115422ACC}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+		{
+                  "sequenceNumber": 2,
+                  "showText": "最佳亮度",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "最佳亮度",
+                            "algorithmName": "{03EB9842-8222-479B-AA3A-C1977FE9413A}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+		{
+                  "sequenceNumber": 3,
+                  "showText": "畸变矫正",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "畸变矫正",
+                            "algorithmName": "{629CA404-8A70-4C5A-979C-5FEFD6E6DE5E}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+
+				{
+                  "sequenceNumber": 4,
+                  "showText": "像素当量(原）",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "像素当量(原）",
+                            "algorithmName": "{B87ADA29-3E43-4824-9935-E457826C5337}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+			{
+                  "sequenceNumber": 5,
+                  "showText": "像素当量",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "像素当量",
+                            "algorithmName": "{0015F398-BCDA-4789-A1BE-FC0D6344908A}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+{
+                  "sequenceNumber": 6,
+                  "showText": "采集光栅表图像",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "采集光栅表图像",
+                            "algorithmName": "{4F0C816D-7B5E-492C-93E3-D52DD8868C30}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+{
+                  "sequenceNumber": 7,
+                  "showText": "光栅表",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "光栅表",
+                            "algorithmName": "{5EA7AB67-4E8D-4BB7-93D7-2C5488AB9060}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+			{
+                  "sequenceNumber": 8,
+                  "showText": "软限位",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "软限位",
+                            "algorithmName": "{FF7284B1-42FC-4D62-8181-0E84CF768B91}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+				{
+                  "sequenceNumber": 9,
+                  "showText": "光栅尺",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "光栅尺",
+                            "algorithmName": "{89FF7813-558D-4DAB-84DC-FD6C054D86D3}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+				{
+                  "sequenceNumber": 10,
+                  "showText": "XY轴角度",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "XY轴角度",
+                            "algorithmName": "{6D0CE25C-3649-4517-B7F5-B14BBB44DFBC}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+				{
+                  "sequenceNumber": 11,
+                  "showText": "变倍补偿",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "变倍补偿",
+                            "algorithmName": "{CF211F5A-30BA-4DEA-B107-831B00241727}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+				{
+                  "sequenceNumber":12,
+                  "showText": "导航相机",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "导航相机",
+                            "algorithmName": "{338891F9-04CC-401C-90BC-6B401ED95D3E}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": true
+                        }
+                    ]
+                },
+                {
+                  "sequenceNumber": 13,
+                  "showText": "激光器",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "激光器",
+                            "algorithmName": "{6C97CE44-B536-4F62-A1A0-7ECF3AEAC88B}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+                {
+                  "sequenceNumber": 14,
+                  "showText": "补偿Z轴",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "补偿Z轴",
+                            "algorithmName": "{45504ED9-5FC0-49DD-B95C-8EA24CE96A9B}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+                {
+                  "sequenceNumber": 15,
+                  "showText": "点激光",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "点激光",
+                            "algorithmName": "{12CE1217-5D31-447D-9CD8-FA2400604C5B}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                },
+                {
+                  "sequenceNumber": 16,
+                  "showText": "检测圆",
+                  "icon": "CalibPixelSize.png",
+                    "section": [
+                        {
+                            "sequenceNumber": 1,
+                            "showText": "检测圆",
+                            "algorithmName": "{DC6B6DE8-4309-483E-91F9-132DFE067593}",
+                            "algorithmVersion": "0.0.1",
+                            "icon": "CalibPixelSize.png",
+                            "enable": false
+                        }
+                    ]
+                }		
+            ]
+        }
+    ],        
+    "dependencies": [ ]
+}
